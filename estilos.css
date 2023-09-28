@@ -1,0 +1,28 @@
+ul{
+    list-style-type: none;
+    padding: 0 !important;
+}
+
+.btn-accion{
+    transition: all ease-in-out .5s;
+    cursor: pointer;
+}
+
+.btn-accion:hover{
+    transform: scale(1.1);
+}
+
+.completada{
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+li div div span{
+    text-transform: capitalize;
+    
+}
+
+li div div{
+    max-width: 50%;
+    overflow: hidden;
+}
